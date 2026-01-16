@@ -290,3 +290,71 @@ footer{
 .footer-container form input[type = "submit"]{
     color: white;
 }
+.new_img{
+    
+}
+
+
+/* responsiveness */
+@media screen and (max-width: 400px) {
+
+    header{
+        width: 100vw;
+        padding: 0;
+        background-image: url("../images/header_bg.png");
+        background-position: center bottom;
+        background-size: contain;
+        
+    }
+
+    
+
+   
+    header nav .menu{
+        display: none;
+    }
+    .banner-content{
+        
+        position: relative;
+        top: -50px;
+        left: -170px;
+       
+        
+        
+    }
+
+    #banner .banner-content h2{
+        font-size: 1.5rem;
+    }
+
+    #banner .banner-content h1{
+        font-size: 2rem;
+    }
+
+    #banner .banner-content p{
+        width: 320px;
+        margin-bottom: 200px;
+
+    }
+
+    #banner .banner-image img{
+       position: relative;
+       top: 0;
+       left: 0;
+        
+    }
+
+    .btn{
+        padding: 9px 17px;
+        font-size: 1rem;
+    }
+    .btn_container{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+        top: -160px;
+        left: -15px;
+    }
+    
+}
